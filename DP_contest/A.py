@@ -8,3 +8,4 @@ for i, a in enumerate(A):
         X[i+1][j] = X[i][j]
         if j >= a: X[i+1][j] |= X[i][j-a]
 print(sum(X[N]))
+
