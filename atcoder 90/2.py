@@ -19,6 +19,8 @@ for i in range(2**N):
     if leftBucketCount == 0:
         answerList.append(bitstr.replace('1','(').replace('0',')'))
 
+
 if(len(answerList)!=0):
+    answerList.sort()
     for i in answerList:
         print(i)
