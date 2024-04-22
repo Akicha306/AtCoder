@@ -2,6 +2,8 @@ N = int(input())
 A = list(map(int,input().split()))
 Output = []
 
+# 最初の解答例
+
 def merge(threshold,list,realstart):
     start =0
     if len(list) <= 1:
@@ -24,3 +26,5 @@ merge(int(N/2),A,1)
 print(len(Output))
 for i in Output:
     print(i)   
+
+
