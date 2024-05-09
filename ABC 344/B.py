@@ -1,17 +1,10 @@
-import numpy as np
+A=[]
+for _ in range(0,100):
+   A.append(int(input()))
+   if A[-1]==0:
+      break
 
-a= 1/10
-print(a)
-print(type(a))
+A.reverse()
 
-b= 216**(1/3)
-b= pow(216, 1/3)
-print(b)
-print(type(b))
-
-c = np.power(216, 1/3)
-print(c)
-print(type(c))
-
-d= 0.6
-print(d)
+for i in A:
+   print(i)
