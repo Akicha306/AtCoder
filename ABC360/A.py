@@ -3,6 +3,7 @@ S = input()
 r_location=0
 m_location=0
 
+
 for i in range(len(S)):
     if S[i] == 'R':
         r_location = i
